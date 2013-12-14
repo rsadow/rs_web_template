@@ -123,17 +123,17 @@ module.exports = function (grunt) {
         files: '<%= project.src %>/sass/{,*/}*.{scss,sass}',
         tasks: ['sass:dev', 'cssmin:dev']
       },
-      // livereload: {
-      //   options: {
-      //     livereload: LIVERELOAD_PORT
-      //   },
-      //   files: [
-      //     '<%= project.app %>/{,*/}*.html',
-      //     '<%= project.assets %>/css/*.css',
-      //     '<%= project.assets %>/js/{,*/}*.js',
-      //     '<%= project.assets %>/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
-      //   ]
-      // }
+      livereload: {
+        options: {
+          livereload: true
+        },
+        files: [
+          '<%= project.app %>/{,*/}*.html',
+          '<%= project.assets %>/css/*.css',
+          '<%= project.assets %>/js/{,*/}*.js',
+          '<%= project.assets %>/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
+        ]
+      }
     }
   });
 

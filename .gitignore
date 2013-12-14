@@ -2,6 +2,7 @@
 # @author rsadow
 
 ## General
+app/assets
 style.min.css
 scripts.min.js
 
