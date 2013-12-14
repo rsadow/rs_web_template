@@ -1,0 +1,12 @@
+{
+  "name": "rs_web_template",
+  "version": "0.0.1",
+  "description": "\"Simple web template front-end with sass",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
